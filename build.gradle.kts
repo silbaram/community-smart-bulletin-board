@@ -65,6 +65,14 @@ project(":community-smart-bulletin-board-api") {
     }
 }
 
+project(":community-smart-bulletin-board-frontend") {
+    val jar: Jar by tasks
+    val bootJar: BootJar by tasks
+
+    bootJar.enabled = false
+    jar.enabled = true
+}
+
 project(":infrastructures") {
     val jar: Jar by tasks
     val bootJar: BootJar by tasks
