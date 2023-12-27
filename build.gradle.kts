@@ -8,7 +8,7 @@ bootJar.enabled = false
 jar.enabled = true
 
 plugins {
-    id("org.springframework.boot") version "3.1.3"
+    id("org.springframework.boot") version "3.2.1"
     id("io.spring.dependency-management") version "1.1.0"
     kotlin("jvm") version "1.9.0"
     kotlin("plugin.spring") version "1.9.0" apply false
@@ -20,7 +20,7 @@ java {
 }
 
 allprojects {
-    group = "sang.jin"
+    group = "com.github.silbaram"
     version = "0.0.1-SNAPSHOT"
     repositories {
         mavenCentral()

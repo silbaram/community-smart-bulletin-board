@@ -1,4 +1,4 @@
-package org.silbaram.api
+package com.github.silbaram.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
